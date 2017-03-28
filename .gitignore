@@ -1,0 +1,5 @@
+# Archived assets
+*.ba2
+
+# Compiled Papyrus scripts
+*.pex
