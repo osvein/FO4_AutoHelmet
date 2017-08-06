@@ -1,4 +1,6 @@
-{ MIT License
+Scriptname AutoHelmetScript extends Quest
+{Automatically equip and unequip the player's helmet according to the combat state.}
+
 ; Copyright (c) 2017 Oskar Sveinsen
 ;
 ; Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -18,10 +20,6 @@
 ; LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 ; OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ; SOFTWARE.
-}
-
-Scriptname AutoHelmetScript extends Quest
-{Automatically equip and unequip the player's helmet according to the combat state.}
 
 Keyword Property HelmetKeyword Auto Const Mandatory
 {indicates that the item is a helmet}
